@@ -55,7 +55,7 @@ After running the experiments we tabulate the results in a csv file as shown abo
 3. ``` cd ns-3-dev ```
 4. Run the following commands to build ns-3
 
-```./waf configure --enable-examples```
+```./waf configure --enable-examples``` <br />
 ```./waf```
 
 5. Now, copy the tcp_srachak.cc file to /home/ns-3-dev/scratch/
@@ -65,4 +65,5 @@ After running the experiments we tabulate the results in a csv file as shown abo
 ```./waf --run scratch/tcp_srachak```
 
 7. The run may take upto 4 hours. Notice that a file called tcp_srachak.csv gets generated. 
-8. vi tcp_srachak for results. 
+8. View the file for results: <br/>
+``` vi tcp_srachak```
